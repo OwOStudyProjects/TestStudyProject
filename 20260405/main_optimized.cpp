@@ -181,8 +181,8 @@ int main()
     const int MAX_COUNT = 5;
 
     // 强制控制台使用 UTF-8
-    SetConsoleOutputCP(65001);
-    SetConsoleCP(65001);
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
 
     // 让 cout 正确输出 UTF-8（关键）
     ios::sync_with_stdio(false);
